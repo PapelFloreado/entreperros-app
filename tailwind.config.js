@@ -7,9 +7,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'hero':"url('/src/assets/banda_entreperros.jpg')"
-      }
+    
       
     },
   },
