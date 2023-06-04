@@ -7,7 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-    
+    backgroundColor: {
+      "footer":"#282828"
+    }
       
     },
   },

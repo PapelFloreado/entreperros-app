@@ -1,3 +1,4 @@
+import Footer from './components/Footer/Footer'
 import Navigation from './components/Navigation/Navigation'
 import './globals.css'
 import { Montserrat } from 'next/font/google'
@@ -13,8 +14,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={montserrat.className}>
-        <Navigation/> 
-      {children}</body>
+        <Navigation/>
+
+        {children}
+
+        <Footer/>
+      </body>
     </html>
   )
 }

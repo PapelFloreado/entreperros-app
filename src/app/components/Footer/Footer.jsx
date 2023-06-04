@@ -1,35 +1,21 @@
-import Image from "next/image";
-import Link from "next/link";
-
+import Link from 'next/link'
+import Image from 'next/image'
 import instagram from "@/assets/img/instagram.webp"
 import spotify from "@/assets/img/spotify.webp"
 import facebook from "@/assets/img/facebook.png"
 import youtube from "@/assets/img/youtube.png"
-
-import "./Hero.css"
-
 const urlIg = "https://www.instagram.com/entreperros_/"
 const urlSpotify = "https://open.spotify.com/artist/4gyKdT8HV9uGvCTbRFA04M?si=-talYqiRToaGVIWmYxyruw"
 const urlFacebook = "https://www.facebook.com/EntrePerrosRock"
 const urlYoutube = "https://www.youtube.com/@EntrePerros"
 
-
-const Hero = () => {
+const Footer = () => {
+    
   return (
     <>
-    
-      <div className="bg">
-        
-        <div className="flex flex-col container bg-hero mx-auto justify-center">
-            <div className="  mb-10">
-              <h1 className=" container mx-auto text-6xl text-center md:text-start md:text-8xl font-bold">ENTRE PERROS</h1>
-              <p className="text-2xl md:text-start text-center md:text-4xl">Rock del bueno</p>
-              <div className="mt-16 md:flex-row flex flex-col justify-center md:justify-start gap-10">
-                <div>
-                  <p className="text-center md:text-start text-2xl">Seguínos en las redes</p>
-                </div>
-                <div className="md:flex-row justify-center flex w-40 gap-4 md:justify-center">
-                  <Link href={urlIg}>
+        <div className='min-h-[70px] mt-20 flex flex-col justify-center mx-auto bg-footer'>
+            <div className='md:w-1/6 w-1/3 flex justify-center mx-auto my-6  gap-4 md:gap-6'>
+                  <Link className='' href={urlIg}>
                       <Image className="rounded-full hover:scale-110 ease-in-out duration-500" src={instagram} alt="instagram icon"></Image>
                   </Link>
                   <Link href={urlSpotify}>
@@ -40,15 +26,13 @@ const Hero = () => {
                   </Link>       
                   <Link href={urlYoutube}>
                       <Image className="rounded-full hover:scale-110 ease-in-out duration-500" src={youtube} alt="youtube icon"></Image>
-                  </Link>       
-                </div>
-              </div>
+                  </Link>
             </div>
-
+            <Link className=" text-center" href="/contacto">Contacto</Link>
+            <h3 className='text-center py-4'>Realizado por <span><Link href="https://www.papelfloreado.ar" target='_blank'>papelfloreado.ar</Link></span></h3>
         </div>
-      </div>
     </>
   )
 }
 
-export default Hero
+export default Footer
