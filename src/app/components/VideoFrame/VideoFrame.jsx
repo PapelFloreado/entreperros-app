@@ -8,7 +8,7 @@ const VideoFrame = () => {
     <>
         <div className='container mx-auto mt-20'>
             <div className='md:flex'>
-                <div className='place-self-center flex flex-col mx-10 text-center'>
+                <div className='place-self-center flex flex-col basis-1/2 mx-10 text-center'>
                     <h2 className='text-4xl place-self-center'>Mira nuestro último lanzamiento</h2>
                     <p className='mt-6'>No te pierdas todas las novedades.</p>
                     <p className='mt-6'>Suscribite</p>
@@ -16,7 +16,7 @@ const VideoFrame = () => {
                         <Image className='md:w-1/4 ' src={youtube} alt="youtube icon"/>
                     </Link>
                 </div>
-                <iframe className='rounded-2xl mt-10 flex justify-center w-full  h-auto md:mt-0 md:w-1/2' /* width="560" height="315" */ src="https://www.youtube.com/embed/Bnnghs4_deU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe className='rounded-2xl mt-10 flex justify-center basis-1/2  w-full md:mt-0 '  height="315" src="https://www.youtube.com/embed/Bnnghs4_deU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
     </>
