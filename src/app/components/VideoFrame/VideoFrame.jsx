@@ -16,7 +16,7 @@ const VideoFrame = () => {
                         <Image className='md:w-1/4 ' src={youtube} alt="youtube icon"/>
                     </Link>
                 </div>
-                <iframe className='rounded-2xl mt-10 flex justify-center basis-1/2  w-full md:mt-0 '  height="315" src="https://www.youtube.com/embed/Bnnghs4_deU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe className='rounded-2xl mt-10 flex justify-center basis-1/2  w-full md:mt-0 '  height="315" src="https://www.youtube.com/embed/Bnnghs4_deU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
             </div>
         </div>
     </>

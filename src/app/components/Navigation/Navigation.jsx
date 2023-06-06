@@ -14,7 +14,7 @@ const Navigation = () => {
     }
 
   return (
-    <div className=" min-h-[70px]  py-6 sticky top-0">
+    <div className=" min-h-[70px] z-10 py-6 sticky bg-transparent top-0">
 
         <nav className="flex lg:container mx-auto ">
             <div className="basis-1/2">
