@@ -2,13 +2,13 @@ import Link from "next/link"
 
 const fechas = [
     /* {
-        id:1,
+       
         fecha:"11/12/2023",
         lugar:"La Tangente",
         url:"https://www.instagram.com/entreperros_"
     },
     {
-        id:2,
+       
         fecha:"12/92/1222",
         lugar:"casa",
         url:"https://www.instagram.com/entreperros_"
@@ -42,12 +42,12 @@ const TableTour = () => {
                     </thead>
                     {
 
-                    fechas.map((fecha)=>(
+                    fechas.map((fecha, index)=>(
 
                     
                         <tbody>
                        
-                        <tr key={fecha.id} className=" border-b   bg-zinc-800  dark:border-gray-700">
+                        <tr key={index} className=" border-b   bg-zinc-800  dark:border-gray-700">
                             <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                 {fecha.lugar}
                             </th>
