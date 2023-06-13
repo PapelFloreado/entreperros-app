@@ -1,8 +1,14 @@
 
-const Contacto = () => {
+
+import  ContactUs  from "../components/ContactUs/ContactUs"
+
+const Contact = () => {
+
   return (
-    <div>Contacto</div>
+    <>
+        <ContactUs/>
+    </>
   )
 }
 
-export default Contacto
+export default Contact

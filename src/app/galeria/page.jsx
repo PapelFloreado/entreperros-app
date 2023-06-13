@@ -1,6 +1,7 @@
 import dynamic from "next/dynamic"
 
 const Gallery = dynamic(()=>import ("../components/Gallery/Gallery"))
+
 const Galeria = () => {
     
   return (

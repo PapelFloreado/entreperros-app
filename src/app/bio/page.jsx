@@ -7,7 +7,8 @@ const Bio = () => {
   return (
     <>
         <div className="container sm:container md:mx-auto xl:container md:min-h-screen">
-          <h2 className='my-10 md:text-start text-center text-3xl'>Conocemos un poco más</h2>
+          <h1 className=' my-4 md:text-start text-center '>Conocemos un poco más</h1>
+          <h3 className="mt-10 mb-16">Te dejamos una breve reseña</h3>
           <Image className="w-3/4 flex justify-center mx-auto shadow-xl  shadow-slate-900 rounded-xl" src={bio} alt="foto de entre perros tocando"/>
           <div className="mt-14">
             <p>Con orígenes musicales inspirados en el folk rock y con presencia de algunos temas reggae en su repertorio, actualmente transita el género canción.</p>
