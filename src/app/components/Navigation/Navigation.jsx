@@ -16,10 +16,10 @@ const Navigation = () => {
   return (
     <div className=" min-h-[70px] z-10 py-6 sticky bg-transparent top-0">
 
-        <nav className="flex lg:container mx-auto ">
+        <nav className="flex mx-8 lg:container lg:mx-auto ">
             <div className="basis-1/2">
                 <Link href="/">
-                    <Image className="w-1/4" src={logo} alt="entre perros logo"/>
+                    <Image className="w-2/4 lg:w-1/4" src={logo} alt="entre perros logo"/>
                 </Link>
             </div>
             <div className="basis-1/2 font-semibold self-center">

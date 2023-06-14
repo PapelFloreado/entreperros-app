@@ -28,7 +28,7 @@ const Hero = () => {
                 <div>
                   <p className="text-center md:text-start text-2xl">Seguínos en las redes</p>
                 </div>
-                <div className="md:flex-row justify-center flex w-40 gap-4 md:justify-center">
+                <div className="md:flex-row justify-center mx-auto w-1/3 items-center flex md:w-40 gap-4 md:justify-center">
                   <Link href={urlIg}>
                       <Image className="rounded-full hover:scale-110 ease-in-out duration-500" src={instagram} alt="instagram icon"></Image>
                   </Link>

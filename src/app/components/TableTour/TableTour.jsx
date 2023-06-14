@@ -40,14 +40,12 @@ const TableTour = () => {
                             </th>
                         </tr>
                     </thead>
+                    <tbody >
                     {
 
                     fechas.map((fecha , index)=>(
-                        <tbody key={index}>
 
-                    
-                       
-                        <tr  className=" border-b   bg-zinc-800  dark:border-gray-700">
+                        <tr key={index}  className=" border-b   bg-zinc-800  dark:border-gray-700">
                             <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                 {fecha.lugar}
                             </th>
@@ -61,9 +59,9 @@ const TableTour = () => {
                             </td>
                             
                         </tr>
-                        </tbody>
                     ))
                 }
+                </tbody>
                 </table>
                 
                 )
