@@ -14,13 +14,13 @@ const TableTour = () => {
 
   return (
     
-      <div className="container min-h-[100px] mx-auto  shadow-md sm:rounded-lg mt-16">
+      <div className="container min-h-[100px] mx-auto shadow-md sm:rounded-lg mt-16">
 
     <h2 className='text-4xl text-center mb-14'>Tour</h2>
     {
         fechas.length < 1 ? <h2 className="text-center text-4xl">Próximamente más fechas</h2> : (
             
-            <table className="w-full text-center text-sm  text-white">
+            <table className="w-full text-center text-sm container mx-auto  text-white">
                     <thead className="text-xs">
                         <tr>
                             <th scope="col" className="px-6 py-3 w-1/3">
@@ -40,13 +40,13 @@ const TableTour = () => {
                     fechas.map((fecha , index)=>(
 
                         <tr key={index}  className=" border-b   bg-zinc-800  dark:border-gray-700">
-                            <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <th scope="row" className="py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                 {fecha.lugar}
                             </th>
-                            <td className="px-6 py-4">
+                            <td className=" py-4">
                                 {fecha.fecha}
                             </td>
-                            <td className="px-6 py-4">
+                            <td className=" py-4">
                                 <Link href={fecha.url} target="_blank">
                                     <button className="bg-black hover:bg-white duration-500 ease-in-out hover:border-white hover:text-black p-3 rounded-xl">Comprar Tickets</button>
                                 </Link>
