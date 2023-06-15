@@ -14,13 +14,13 @@ const TableTour = () => {
 
   return (
     
-      <div className="container min-h-[100px] mx-auto shadow-md sm:rounded-lg mt-16">
+      <div className="container min-h-[100px] mx-auto shadow-md  sm:rounded-lg mt-16">
 
     <h2 className='text-4xl text-center mb-14'>Tour</h2>
     {
         fechas.length < 1 ? <h2 className="text-center text-4xl">Próximamente más fechas</h2> : (
             
-            <table className="w-full text-center text-sm container mx-auto  text-white">
+            <table className="w-full text-center text-sm container md:mx-auto  text-white">
                     <thead className="text-xs">
                         <tr>
                             <th scope="col" className="px-6 py-3 w-1/3">
