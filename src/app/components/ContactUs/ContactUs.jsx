@@ -19,7 +19,7 @@ debugger
 
   return (
     <div className='container mx-auto'>
-      <h1 className='mb-10 md:text-start text-center'>Contactate con nosotros</h1>
+      <h1 className='mb-10 text-2xl md:text-4xl  md:text-start text-center'>Contactate con nosotros</h1>
       <h3 className='mb-10 md:text-start text-center'>En breve nos pondremos en contacto</h3>
         <div className='mx-2 lg:mx-96  md:mx-16'>
             <form className='flex flex-col container mx-auto' ref={form} onSubmit={sendEmail}>

@@ -19,7 +19,7 @@ const Navigation = () => {
         <nav className="flex mx-8 lg:container lg:mx-auto ">
             <div className="basis-1/2">
                 <Link href="/">
-                    <Image className="w-2/4 lg:w-1/4" src={logo} alt="entre perros logo"/>
+                    <Image className="w-2/4 lg:w-1/4" src={logo} priority alt="entre perros logo"/>
                 </Link>
             </div>
             <div className="basis-1/2 font-semibold self-center">

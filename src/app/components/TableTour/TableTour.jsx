@@ -3,14 +3,8 @@ import Link from "next/link"
 const fechas = [
      {
         id:1,
-        fecha:"11/12/2023",
-        lugar:"La Tangente",
-        url:"https://www.instagram.com/entreperros_"
-    },
-    {
-       id: 2,
-        fecha:"12/92/1222",
-        lugar:"casa",
+        fecha:"30/06/2023",
+        lugar:"Orange Bar, San Martín",
         url:"https://www.instagram.com/entreperros_"
     }
 ]
@@ -54,7 +48,7 @@ const TableTour = () => {
                             </td>
                             <td className="px-6 py-4">
                                 <Link href={fecha.url} target="_blank">
-                                    <button className="bg-black p-3 rounded-xl">Comprar Tickets</button>
+                                    <button className="bg-black hover:bg-white duration-500 ease-in-out hover:border-white hover:text-black p-3 rounded-xl">Comprar Tickets</button>
                                 </Link>
                             </td>
                             
