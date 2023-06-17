@@ -1,20 +1,25 @@
 "use client"
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import Toast from '../Toast/Toast';
 
 const ContactUs = () => {
   const form = useRef();
+  const [send, setSend] = useState(false)
 
   const sendEmail = (e) => {
-    
     e.preventDefault();
-debugger
     emailjs.sendForm(process.env.NEXT_PUBLIC_SERVICE_ID, process.env.NEXT_PUBLIC_TEMPLATE_ID, form.current, process.env.NEXT_PUBLIC_PUBLIC_KEY)
       .then((result) => {
+          setSend(true)
+          setTimeout(()=>{
+            setSend(false)
+          },4000)
           console.log(result.text);
-      }, (error) => {
+      }),
+      (error) => {
           console.log(error.text);
-      });
+      };
   };
 
   return (
@@ -32,6 +37,9 @@ debugger
               <input  className='mt-6 hover:bg-white p-2 rounded-xl hover:text-black duration-500 ease-in-out' type="submit" value="Enviar" ></input>
             </form>
         </div>
+        {
+          send === true ? <Toast/> : <div className='hidden'></div>
+        }
     </div>
   );
 };
