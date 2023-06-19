@@ -6,7 +6,7 @@ import { Montserrat } from 'next/font/google'
 const montserrat = Montserrat({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Entre Perros || Rock del bueno',
+  title:"Entre Perros || Rock del Bueno",
   description: 'Entre Perros banda de rock del oeste de GBA, hacemos rock del bueno',
   keywords: ["entre perros", "banda", "rock", "banda de rock", "rock and roll", "perros", "musica", "banda de rock", "pop"],
   creator: "Entre Perros",

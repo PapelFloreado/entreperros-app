@@ -25,7 +25,7 @@ const Hero = () => {
               <p className="text-2xl md:text-start text-center md:text-4xl">Rock del bueno</p>
               <div className="mt-16 md:flex-row flex flex-col justify-center md:justify-start gap-10">
                 <div>
-                  <p className="text-center md:text-start text-2xl">Seguínos en las redes</p>
+                  <p className="text-center md:text-start text-2xl">Seguinos en las redes</p>
                 </div>
                 <div className="md:flex-row justify-center mx-auto md:mx-4 w-1/3 items-center flex md:w-40 gap-4 md:justify-center">
                   <Link href={urlIg}>
