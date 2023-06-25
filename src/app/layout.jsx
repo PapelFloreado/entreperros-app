@@ -13,7 +13,8 @@ export const metadata = {
   publisher: "papelfloreado.ar",
   applicationName:"Entre Perros Web",
   generator: "Next.js",
-  authors: [{name: "Gabriel Peralta",url: "https://www.papelfloreado.ar"}]
+  authors: [{name: "Gabriel Peralta",url: "https://www.papelfloreado.ar"}],
+  "msvalidate.01": "5632EF80205D852EBCEE6F4D12EC881A"
 }
 
 export default function RootLayout({ children }) {
