@@ -8,7 +8,7 @@ const montserrat = Montserrat({ subsets: ['latin'] })
 export const metadata = {
   title:"Entre Perros || Rock del Bueno",
   description: 'Entre Perros banda de rock del oeste de GBA, hacemos rock del bueno. Formada en 2011 Entre Perros está lanzando su tercer album de estudio llamado "Todo".',
-  keywords: ["entre perros", "banda", "rock", "banda de rock", "rock and roll", "rock del bueno", "banda de palormar", "rock nacional", "rock argentino", "musica argentina","argentina", "perros", "musica", "pop", "rock latino", "rock latinoamericano"],
+  keywords: ["entre perros", "banda", "rock", "banda de rock", "rock and roll", "rock del bueno", "banda de palormar", "rock nacional", "rock argentino", "musica argentina","argentina", "perros", "musica", "pop", "rock latino", "rock latinoamericano", "todo", "ruta", "adonde vayas"],
   creator: "Entre Perros",
   publisher: "papelfloreado.ar",
   applicationName:"Entre Perros Web",
