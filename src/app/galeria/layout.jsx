@@ -1,7 +1,7 @@
 
 export const metadata = {
     title:"Entre Perros || Galería",
-    description: 'Entre Perros banda de rock del oeste de GBA, hacemos rock del bueno. Encontrá aquí imagenes de nuestros shows. Contenido inedito de la banda.',
+    description: 'Entre Perros banda de rock del oeste de GBA, hacemos rock del bueno. Formada en 2011 Entre Perros está lanzando su tercer album de estudio llamado "Todo". Encontrá aquí imagenes de nuestros shows. Contenido inedito de la banda.',
     keywords: ["entre perros", "spotify", "streaming","galeria de fotos", "galeria", "fotos", "banda", "rock", "banda de rock", "rock and roll", "perros", "musica", "banda de rock", "pop"],
     creator: "Entre Perros",
     publisher: "papelfloreado.ar",

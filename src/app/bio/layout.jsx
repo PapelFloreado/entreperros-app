@@ -1,7 +1,7 @@
 
 export const metadata = {
     title:"Entre Perros || Bío",
-    description: 'Entre Perros banda de rock del oeste de GBA, hacemos rock del bueno. Conocé más de nosotros. Los inicios de la banda y como nos conocimos.',
+    description: 'Entre Perros banda de rock del oeste de GBA, hacemos rock del bueno. Formada en 2011 Entre Perros está lanzando su tercer album de estudio llamado "Todo". Conocé más de nosotros. Los inicios de la banda y como nos conocimos.',
     keywords: ["entre perros", "spotify", "streaming", "bio", "biografia","biografia de entre perros", "banda", "rock", "banda de rock", "rock and roll", "perros", "musica", "banda de rock", "pop"],
     creator: "Entre Perros",
     publisher: "papelfloreado.ar",
