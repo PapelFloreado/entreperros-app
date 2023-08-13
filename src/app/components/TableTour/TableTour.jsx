@@ -1,11 +1,17 @@
 import Link from "next/link"
 
 const fechas = [
-     {
+    {
         id:1,
         fecha:"30/06/2023",
         lugar:"Orange Bar, San Martín",
         url:"https://www.instagram.com/entreperros_"
+    },
+    {
+        id:2,
+        fecha:"02/09/2023",
+        lugar:"La Tangente, CABA",
+        url:"https://www.passline.com/eventos/entre-perros-en-la-tangente"
     }
 ]
 
