@@ -30,7 +30,7 @@ const Footer = () => {
             </div>
             <Link className=" text-center" href="/contacto">Contacto</Link>
             <p className='text-center mt-3'>Todos los derechos reservados Entre Perros</p>
-            <h3 className='text-center py-4'>Realizado por <span><Link href="https://www.papelfloreado.ar" target='_blank'>papelfloreado.ar</Link></span></h3>
+            <h3 className='text-center py-4'>Realizado por <span><Link href="https://www.xn--diseemostuweb-lkb.com.ar/" target='_blank'>www.diseñemostuweb.com.ar</Link></span></h3>
         </div>
     </>
   )
