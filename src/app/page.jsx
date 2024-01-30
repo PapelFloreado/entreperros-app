@@ -14,12 +14,10 @@ export default function Home() {
     
   return (
     <>
-      {
-        openModal === true ? <Modal/> : <div></div>
-      }
+      
       <Hero/>
       <VideoFrame/>
-      <TableTour/> 
+      {/* <TableTour/>  */}
       
     </>
   )

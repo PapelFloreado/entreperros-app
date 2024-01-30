@@ -22,7 +22,7 @@ const Hero = () => {
         <div className="flex flex-col container bg-hero mx-auto justify-center   min-h-[400px]">
             <div className="  mb-10">
               <h1 className=" container mx-auto text-6xl text-center md:text-start md:text-8xl font-bold">ENTRE PERROS</h1>
-              <p className="text-2xl md:text-start text-center md:text-4xl">Rock del bueno</p>
+              <p className="text-2xl md:text-start text-center md:text-4xl">La canción del Oeste</p>
               <div className="mt-16 md:flex-row flex flex-col justify-center md:justify-start gap-10">
                 <div>
                   <p className="text-center md:text-start text-2xl">Seguinos en las redes</p>
